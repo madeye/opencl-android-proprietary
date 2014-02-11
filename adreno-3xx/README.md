@@ -12,10 +12,8 @@ $ su
 # mount -o rw,remount -t yaffs2 /dev/block/mtdblock3 /system
 # cp /sdcard/libOpenCL.so /system/vendor/lib/
 # cp /sdcard/libllvm-a3xx.so /system/vendor/lib/
-# cp /sdcard/libllvm-arm.so /system/vendor/lib/
 # chmod 644 /system/vendor/lib/libOpenCL.so
 # chmod 644 /system/vendor/lib/libllvm-a3xx.so
-# chmod 644 /system/vendor/lib/libllvm-arm.so
 ```
 
 ### 4.2 Jelly Bean
@@ -30,8 +28,6 @@ $ su
 # mount -o rw,remount -t yaffs2 /dev/block/mtdblock3 /system
 # cp /sdcard/libOpenCL.so /system/lib/
 # cp /sdcard/libllvm-a3xx.so /system/lib/
-# cp /sdcard/libllvm-arm.so /system/lib/
 # chmod 644 /system/lib/libOpenCL.so
 # chmod 644 /system/lib/libllvm-a3xx.so
-# chmod 644 /system/lib/libllvm-arm.so
 ```
